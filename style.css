@@ -199,11 +199,12 @@ ol {
     font-size: 24px;
     right: 30px;
     width: 50px;
-    background-color: #fb397d;
+    background-color: #5153ba;
     color: #fff;
     text-align: center;
     height: 50px;
     line-height: 50px;
+    border-radius: 10px 10px 0px 0px;
 }
 
 a,
@@ -378,16 +379,16 @@ p {
     color: #fff;
     font-weight: 500;
     display: inline-block;
-    border: 2px solid #a883e9;
+    border: 2px solid #e9e9f1;
     height: 50px;
     min-width: 178px;
     line-height: 46px;
     text-align: center;
-    border-radius: 24px 24px 24px 0px;
+    border-radius: 24px;
 }
 
 .sing-up-button > a:hover {
-    background: #fb397d;
+    background: #f3550d;
     color: #fff;
     border-color: transparent;
     -webkit-transition-duration: 500ms;
@@ -398,7 +399,7 @@ p {
 /* stcicky css */
 
 .header_area.sticky {
-    background-color: #884bdf;
+    background-color: #5153ba;
     -webkit-box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1);
             box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1);
     height: 70px;
@@ -408,7 +409,7 @@ p {
 }
 
 .header_area.sticky .menu_area .navbar-brand {
-    font-size: 30px;
+    font-size: 25px;
 }
 
 .header_area.sticky .menu_area #nav .nav-link {
@@ -541,6 +542,37 @@ p {
     margin-bottom: 100px;
 }
 
+/* Download button */
+
+.googleplaybutton-phone > a {
+    color: #fff;
+    font-weight: 500;
+    display: inline-block;
+    border: 2px solid #d2dcee;
+    height: 50px;
+    min-width: 178px;
+    line-height: 46px;
+    text-align: center;
+    border-radius: 24px;
+}
+
+.googleplaybutton-phone > a:hover {
+    background: #b1b3ff;
+    color: #fff;
+    border-color: transparent;
+    -webkit-transition-duration: 500ms;
+    -o-transition-duration: 500ms;
+    transition-duration: 500ms;
+}
+
+.col-69 {
+  padding: 10px 0px 0px 0px;
+}
+
+.col-lg-69 {
+  padding: 10px 0px 0px 0px;
+}
+
 /* --------------------------
 :: 4.0 Special Area CSS
 -------------------------- */
@@ -622,11 +654,11 @@ p {
 .app-download-btn.active a,
 .app-download-btn a:hover {
     border-color: transparent;
-    background-color: #fb397d;
+    background-color: #fb397d; /* fb397d */
 }
 
 .app-download-btn a i {
-    color: #47425d;
+    color: #47425d; /* 47425d */
     font-size: 24px;
     margin-right: 15px;
     -webkit-transition-duration: 500ms;
