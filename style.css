@@ -248,7 +248,7 @@ p {
 .line-shape {
     width: 80px;
     height: 2px;
-    background-color: #fb397d;
+    background-color: #f4560d;
     margin-top: 15px;
 }
 
@@ -286,7 +286,7 @@ p {
     -webkit-animation: 2000ms linear 0s normal none infinite running colorlib-load;
     animation: 2000ms linear 0s normal none infinite running colorlib-load;
     background: transparent none repeat scroll 0 0;
-    border-color: #dddddd #dddddd #fb397d;
+    border-color: #dddddd #dddddd #f4560d;
     border-radius: 50%;
     border-style: solid;
     border-width: 2px;
@@ -368,7 +368,7 @@ p {
 
 
 .menu_area nav ul li > a:hover {
-    color: #fb397d;
+    color: #f4560d;
 }
 
 .sing-up-button {
@@ -502,7 +502,7 @@ p {
 }
 
 .get-start-area .submit {
-    background-color: #fb397d;
+    background-color: #f4560d;
     color: #fff;
     font-weight: 500;
     display: inline-block;
@@ -593,9 +593,34 @@ p {
 :: 4.0 Special Area CSS
 -------------------------- */
 
+.view-playstore > a {
+    color: #4f51b7;
+    font-weight: 500;
+    display: inline-block;
+    border: 2px solid #d2dcee;
+    height: 50px;
+    min-width: 182px;
+    line-height: 46px;
+    text-align: center;
+    border-radius: 24px;
+}
+
+.view-playstore > a:hover {
+    background: #5153ba;
+    color: #fff;
+    border-color: transparent;
+    -webkit-transition-duration: 500ms;
+    -o-transition-duration: 500ms;
+    transition-duration: 500ms;
+}
+
+.list-icon {
+  width: 70px;
+}
+
 .single-icon > i {
     font-size: 36px;
-    color: #fb397d;
+    color: #f4560d;
 }
 
 .single-special > h4 {
@@ -614,9 +639,9 @@ p {
 }
 
 .single-special {
-    border: 1px solid #eff2f6;
+    border: 1.5px solid #c9c9e0; /* #eff2f6 */
     padding: 40px;
-    border-radius: 40px 40px 40px 0px;
+    border-radius: 32px 32px 32px 32px;
     -webkit-transition-duration: 800ms;
     -o-transition-duration: 800ms;
     transition-duration: 800ms;
@@ -630,8 +655,8 @@ p {
 }
 
 .single-special:hover {
-    -webkit-box-shadow: 0 10px 90px rgba(0, 0, 0, 0.08);
-            box-shadow: 0 10px 90px rgba(0, 0, 0, 0.08);
+    -webkit-box-shadow: 0 5px 70px rgba(0, 0, 0, 0.2);
+            box-shadow: 0 5px 70px rgba(0, 0, 0, 0.2);
 }
 
 .single-special p {
@@ -670,7 +695,7 @@ p {
 .app-download-btn.active a,
 .app-download-btn a:hover {
     border-color: transparent;
-    background-color: #fb397d; /* fb397d */
+    background-color: #f4560d; /* fb397d */
 }
 
 .app-download-btn a i {
@@ -719,7 +744,7 @@ p {
 }
 
 .single-feature > i {
-    color: #fb397d;
+    color: #f4560d;
     font-size: 30px;
     display: inline-block;
     float: left;
@@ -767,7 +792,7 @@ p {
 .video-area .video-play-btn a {
     width: 80px;
     height: 80px;
-    background-color: #fb397d;
+    background-color: #f4560d;
     color: #fff;
     text-align: center;
     display: block;
@@ -877,7 +902,7 @@ p {
 }
 
 .app-screenshots-area .owl-dot.active {
-    background-color: #fb397d;
+    background-color: #f4560d;
     border: transparent;
 }
 
@@ -914,7 +939,7 @@ p {
 
 
 .single-price-plan .package-plan .ca-price h4 {
-    color: #fb397d;
+    color: #f4560d;
     font-size: 48px;
     position: relative;
     z-index: 1;
@@ -924,7 +949,7 @@ p {
 
 .single-price-plan .package-plan .ca-price span {
     font-size: 18px;
-    color: #fb397d;
+    color: #f4560d;
 }
 
 .single-price-plan .plan-button > a {
@@ -1020,8 +1045,8 @@ p {
 }
 
 .clients-feedback-area .slick-dots li.slick-active button {
-    background-color: #fb397d;
-    border-color: #fb397d;
+    background-color: #f4560d;
+    border-color: #f4560d;
 }
 
 .clients-feedback-area .slick-slide.client-thumbnail {
@@ -1107,7 +1132,7 @@ p {
     display: inline-block;
     text-align: center;
     line-height: 45px;
-    color: #fb397d;
+    color: #f4560d;
     font-weight: 500;
     border-radius: 23px 23px 23px 0;
 }
@@ -1250,7 +1275,7 @@ p {
 }
 
 .btn.submit-btn {
-    background: #fb397d;
+    background: #f4560d;
     height: 48px;
     min-width: 185px;
     color: #ffffff;
@@ -1297,7 +1322,7 @@ p {
 }
 
 .footer-social-icon > a > i:hover {
-    background: #fb397d;
+    background: #f4560d;
     color: #fff;
     -webkit-transition-duration: 500ms;
     -o-transition-duration: 500ms;
@@ -1324,7 +1349,7 @@ p {
 }
 
 .footer-social-icon > a .active {
-    background: #fb397d;
+    background: #f4560d;
 }
 
 .footer-menu ul li:last-child a {
