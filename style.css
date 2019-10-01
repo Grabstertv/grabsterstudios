@@ -63,8 +63,8 @@ h6 {
 }
 
 .section_padding_100 {
-    padding-top: 100px;
-    padding-bottom: 100px;
+    padding-top: 50px;
+    padding-bottom: 0px;
 }
 
 .section_padding_100_50 {
@@ -568,6 +568,27 @@ p {
 /* Download button */
 
 .googleplaybutton-phone > a {
+    color: #5153ba;
+    font-weight: 500;
+    display: inline-block;
+    border: 2px solid #5153ba;
+    height: 50px;
+    min-width: 178px;
+    line-height: 48px;
+    text-align: center;
+    border-radius: 24px;
+}
+
+.googleplaybutton-phone > a:hover {
+    background: #5153ba;
+    color: #fff;
+    border-color: transparent;
+    -webkit-transition-duration: 500ms;
+    -o-transition-duration: 500ms;
+    transition-duration: 500ms;
+}
+
+.googleplaybutton-welcome > a {
     color: #d2dcee;
     font-weight: 500;
     display: inline-block;
@@ -579,9 +600,9 @@ p {
     border-radius: 24px;
 }
 
-.googleplaybutton-phone > a:hover {
-    background: #d2dcee;
-    color: #fff;
+.googleplaybutton-welcome > a:hover {
+    background: #5153ba;
+    color: #d2dcee;
     border-color: transparent;
     -webkit-transition-duration: 500ms;
     -o-transition-duration: 500ms;
@@ -826,57 +847,9 @@ p {
 }
 
 /* --------------------------
-:: 7.0 Cool Facts Area CSS
+:: 7.0 Cool Facts Area CSS ---REMOVED----
 -------------------------- */
 
-.cool_facts_area {
-    position: relative;
-    z-index: auto;
-    background: #a865e1;
-    background: -webkit-linear-gradient(to left, #7873ed, #a865e1);
-    background: -webkit-linear-gradient(right, #7873ed, #a865e1);
-    background: -webkit-gradient(linear, right top, left top, from(#7873ed), to(#a865e1));
-    background: -o-linear-gradient(right, #7873ed, #a865e1);
-    background: linear-gradient(to left, #7873ed, #a865e1);
-    padding: 180px 0 80px 0;
-    top: -100px;
-}
-
-
-.cool_facts_area:after {
-    position: absolute;
-    bottom: -100px;
-    left: 0;
-    right: 0;
-    width: 100%;
-    height: 100px;
-    background-color: #fff;
-    content: ''
-}
-
-.cool-facts-content > i {
-    color: #ffffff;
-    font-size: 36px;
-}
-
-.counter-area {
-    min-width: 100px;
-    -ms-flex-item-align: end;
-    align-self: flex-end;
-}
-
-.counter-area > h3 {
-    color: #ffffff;
-    font-size: 60px;
-    margin-bottom: 0;
-    line-height: 1;
-}
-
-.cool-facts-content > p {
-    font-size: 18px;
-    color: #ffffff;
-    margin-bottom: 0;
-}
 
 /* --------------------------
 :: 8.0 Screenshots Area CSS
@@ -924,81 +897,10 @@ p {
 }
 
 /* --------------------------
-:: 9.0 Pricing Plan Area CSS
+:: 9.0 Pricing Plan Area CSS ----REMOVED----
 -------------------------- */
 
-.pricing-plane-area {
-    background: #f5f9fc;
-}
 
-.single-price-plan {
-    background: #ffffff;
-    border: 1px solid #ebebeb;
-    border-radius: 30px 30px 30px 0;
-    margin-bottom: 30px;
-}
-
-.single-price-plan .package-plan {
-    padding: 40px 0;
-    border-radius: 30px 30px 0 0;
-}
-
-.single-price-plan .package-plan > h5 {
-    color: #5153ba;
-    font-size: 18px;
-}
-
-
-.single-price-plan .package-plan .ca-price h4 {
-    color: #f4560d;
-    font-size: 48px;
-    position: relative;
-    z-index: 1;
-    margin-bottom: 0;
-    line-height: 1;
-}
-
-.single-price-plan .package-plan .ca-price span {
-    font-size: 18px;
-    color: #f4560d;
-}
-
-.single-price-plan .plan-button > a {
-    background: #726a84;
-    padding: 10px 0;
-    border-bottom-right-radius: 30px;
-    color: #ffffff;
-    font-size: 16px;
-    font-weight: 500;
-    display: block;
-    -webkit-transition-duration: 500ms;
-    -o-transition-duration: 500ms;
-    transition-duration: 500ms;
-}
-
-.single-price-plan .package-description > p {
-    margin-bottom: 0;
-    line-height: 1;
-    padding: 15px 0;
-    border-bottom: 1px solid #ebebeb;
-}
-
-.single-price-plan .package-description > p:first-child {
-    border-top: 1px solid #ebebeb;
-}
-
-.single-price-plan.active .package-plan,
-.single-price-plan.active .plan-button > a,
-.single-price-plan:hover .plan-button > a {
-    background-color: #a865e1;
-}
-
-.single-price-plan.active .package-plan .ca-price > h4,
-.single-price-plan.active .package-plan .ca-price > span,
-.single-price-plan.active .package-plan > h5,
-.single-price-plan.active .plan-button > a {
-    color: #fff;
-}
 
 /* --------------------------
 :: 10.0 Testimonials Area CSS
@@ -1114,51 +1016,10 @@ p {
 }
 
 /* --------------------------
-:: 11.0 CTA Area CSS Start
+:: 11.0 CTA Area CSS Start ----REMOVED----
 -------------------------- */
 
-.our-monthly-membership {
-    background: #a865e1;
-    background: -webkit-linear-gradient(to left, #7873ed, #a865e1);
-    background: -webkit-linear-gradient(right, #7873ed, #a865e1);
-    background: -webkit-gradient(linear, right top, left top, from(#7873ed), to(#a865e1));
-    background: -o-linear-gradient(right, #7873ed, #a865e1);
-    background: linear-gradient(to left, #7873ed, #a865e1);
-}
 
-.membership-description > h2 {
-    color: #ffffff;
-    font-size: 36px;
-}
-
-.membership-description > p {
-    color: #ffffff;
-    margin-bottom: 0;
-}
-
-.get-started-button > a {
-    background: #ffffff;
-    height: 45px;
-    min-width: 155px;
-    display: inline-block;
-    text-align: center;
-    line-height: 45px;
-    color: #f4560d;
-    font-weight: 500;
-    border-radius: 23px 23px 23px 0;
-}
-
-.get-started-button > a:hover {
-    background: #5153ba;
-    color: #fff;
-    -webkit-transition-duration: 500ms;
-    -o-transition-duration: 500ms;
-    transition-duration: 500ms;
-}
-
-.get-started-button {
-    text-align: right;
-}
 
 /* --------------------------
 :: 12.0 Team Area CSS Start
