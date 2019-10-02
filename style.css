@@ -722,6 +722,8 @@ p {
     -webkit-box-pack: center;
     -ms-flex-pack: center;
     justify-content: center;
+    margin-bottom: 50px;
+    margin-top: 20px;
 }
 
 .app-download-btn.active a,
@@ -1182,7 +1184,7 @@ p {
 }
 
 .footer-social-icon > a > i {
-    background: #9b69e4;
+    background: #5153ba;
     font-size: 14px;
     color: #ffffff;
     height: 40px;
