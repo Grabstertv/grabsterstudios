@@ -69,7 +69,7 @@ h6 {
 
 .section_padding_100_50 {
     padding-top: 100px;
-    padding-bottom: 50px;
+    padding-bottom: 0px;
 }
 
 .section_padding_100_70 {
@@ -704,7 +704,7 @@ p {
     display: flex;
     -ms-flex-preferred-size: 1;
     flex-basis: 1;
-    margin-top: 50px;
+    margin-top: -5px;
 }
 
 .app-download-btn a {
@@ -716,7 +716,7 @@ p {
     -ms-flex-align: center;
     align-items: center;
     padding: 15px 30px;
-    border-radius: 30px 30px 30px 0;
+    border-radius: 30px 30px 30px 30px;
     -webkit-box-shadow: 0 10px 30px rgba(0, 0, 0, 0.1);
     box-shadow: 0 10px 30px rgba(0, 0, 0, 0.1);
     -webkit-box-pack: center;
@@ -1098,7 +1098,7 @@ p {
 }
 
 .single-team-member {
-    margin-bottom: 50px;
+    margin-bottom: 0px;
 }
 
 /* --------------------------
