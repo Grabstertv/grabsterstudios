@@ -26,7 +26,7 @@
 -------------------------- */
 
 /* @import url('https://fonts.googleapis.com/css?family=Overpass:400,500,700|Montserrat:400,500,700'); */
-@import url('https://fonts.googleapis.com/css?family=Overpass:400,500,700|Montserrat:400,500,700');
+@import url('https://fonts.googleapis.com/css?family=Overpass:100,200,300,400,500,700|Montserrat:400,500,700');
 @import 'css/bootstrap.min.css';
 @import 'css/animate.css';
 @import 'css/magnific-popup.css';
@@ -806,8 +806,8 @@ p {
     border: 20px solid #fff;
     border-radius: 20px;
     height: 650px;
-    -webkit-box-shadow: 0 10px 50px rgba(0, 0, 0, 0.08);
-    box-shadow: 0 10px 50px rgba(0, 0, 0, 0.08);
+    -webkit-box-shadow: 0 10px 50px rgba(0, 0, 0, 0.06);
+    box-shadow: 0 10px 40px rgba(0, 0, 0, 0.08);
 }
 
 .video-area:after {
